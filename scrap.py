@@ -116,5 +116,4 @@ for i in range(1,4):
         scrap.append(lista)
 
 print('Dados Coletados')
-with open('paste_fo.json', 'w') as f:
-    json.dump(scrap,f , indent=4)
+print(scrap)
